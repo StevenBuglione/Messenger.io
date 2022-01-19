@@ -1,0 +1,26 @@
+.messages{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.recent-chat{
+    flex-direction: column;
+    display: flex;
+    justify-content: end;
+    height: auto;
+    width: 100%;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.pinned-chat{
+    flex-direction: column;
+    display: flex;
+    justify-content: end;
+    height: auto;
+    width: 100%;
+    background-color: aqua;
+}
